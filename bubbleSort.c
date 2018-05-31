@@ -1,5 +1,5 @@
 //sort an array of intergers using bubble sort algorithm
-	void bubbleSort(const int * array,unsigned int size)
+	void bubbleSort(const int *const array,unsigned int size)
 	{
 		void swap(int *element1Ptr, int *element2Ptr);	//ptototype
 		unsigned int pass;	//pass counter
