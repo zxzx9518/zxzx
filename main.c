@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define SIZE 10
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-void bubbleSort(int *  array, unsigned int size);	//ptototype
+void bubbleSort(int *const  array, unsigned int size);	//ptototype
 
 int main(void) 
 {
